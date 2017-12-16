@@ -1,1 +1,113 @@
-
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400i');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+.me
+{
+  max-width: 30%;
+} 
+.jumbotron
+{
+  
+  background-image: url("http://mut.ru/twigif/gifs/20160424_205845_415.gif");
+}
+.developer
+{
+  color:#373c44;
+}
+.portfolio
+{
+  color: #282b30;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.im1
+{
+  margin:15px auto;
+  max-width:500px;
+}
+.myButton
+{
+	border: none;
+	background:none;
+	height: 100%;
+	margin: 0;
+	font-weight: 400;
+	color: #53c6c4;
+	letter-spacing: 1px;
+	font-size: 15px;
+	transition: all 0.4s;
+  transition-timing-function: ease;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	outline: none;
+}
+h2
+{
+  color:#b57348;
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-decoration: none;
+}
+#utkarsh
+{
+  color:#79f2ab;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: bold;
+}
+body
+{
+  background-image: url('https://hdwallsource.com/img/2014/1/best-backgrounds-18905-19393-hd-wallpapers.jpg');
+}
+.my_photo
+{
+  border-radius: 10%;
+  max-height: 35%;
+  border: 1px solid black;
+}
+.p1
+{
+  border:2px solid grey;
+}
+.p2
+{
+  border:2px solid grey;
+}
+.aboutMe
+{
+  font-family: 'Crete Round', serif;
+  font-size: 18px;
+}
+.facebook
+{
+  width: 50px;
+  height: 50px;
+}
+.gmail
+{
+  width: 50px;
+  height: 50px;
+}
+.linkedin
+{
+  width: 40px;
+  height: 40px;
+}
+.ending
+{
+  font-family: 'Gochi Hand', cursive;
+}
+#am
+{
+  text-decoration: none;
+}
+#mw
+{
+  text-decoration: none;
+}
+#cm
+{
+  text-decoration: none;
+}
