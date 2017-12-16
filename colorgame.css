@@ -1,0 +1,92 @@
+body
+{
+	background: #232323;
+	margin: 0;
+}
+h1
+{
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-align: center;
+	font-family: "Montserrat", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 15px 0;
+}
+.square
+{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: all 0.4s;
+	border-radius: 15%;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+#container
+{
+	max-width: 600px;
+	margin: 20px auto;
+}
+#message
+{
+	color: white;
+	padding: 0 auto;
+}
+#first
+{
+	text-align: center;
+}
+#second
+{
+	text-align: center;
+	font-size: 200%;
+}
+#third
+{
+	text-align: center;
+}
+#option
+{
+	background: #97efc3;
+	margin-top: 0;
+	text-align: center;
+	height: 25px;
+}
+
+.selected
+{
+	background: steelblue;
+	color: white;
+}
+button
+{
+	border: none;
+	background:#97efc3;
+	height: 100%;
+	margin: 0;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: 15px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	outline: none;
+}
+#message
+{
+	width: 20%;
+	display: inline-block;
+	color:black;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+button:hover{
+	color: white;
+	background: steelblue;
+}
