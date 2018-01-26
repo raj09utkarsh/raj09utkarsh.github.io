@@ -1,1 +1,76 @@
-fbgvdfbg
+#utkarsh
+{
+	color:#91f2ce;
+    font-family: 'Cabin Sketch', cursive;
+  	font-weight: normal;
+  	font-size: 100px;
+}
+
+body
+{
+	background: #070000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 }
+
+#titleHead
+{
+	font-size: 100px;
+
+}
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(255, 255, 255, 0.0001); 
+}
+
+.ending
+{
+  font-family: 'Gochi Hand', cursive;
+  color: #b1f9df;
+}
+
+.facebook
+{
+  width: 25px;
+  height: 25px;
+}
+.gmail
+{
+  width: 25px;
+  height: 25px;
+}
+.linkedin
+{
+  width: 20px;
+  height: 20px;
+}
+
+.btn
+{
+	background: none;
+}
+.aboutMe
+{
+	color: #8dd6bb;
+}
+.content
+{
+	color: #bbe8d7;
+	font-size: 18px;
+	font-family: 'Merienda', cursive;
+}
+img
+{
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 50%;
+}
