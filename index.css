@@ -1,111 +1,76 @@
-
-.me
-{
-  max-width: 30%;
-} 
-.jumbotron
-{
-  
-  background-image: url("http://gifimage.net/wp-content/uploads/2017/09/background-gif-1.gif");
-}
-.developer
-{
-  color:#373c44;
-}
-.portfolio
-{
-  color: #282b30;
-}
-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-.im1
-{
-  margin:15px auto;
-  max-width:500px;
-}
-.myButton
-{
-	border: none;
-	background:none;
-	height: 100%;
-	margin: 0;
-	font-weight: 400;
-	color: #53c6c4;
-	letter-spacing: 1px;
-	font-size: 15px;
-	transition: all 0.4s;
-  transition-timing-function: ease;
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	outline: none;
-}
-h2
-{
-  color:#b57348;
-  font-family: 'Love Ya Like A Sister', cursive;
-  text-decoration: none;
-}
 #utkarsh
 {
-  color:#79f2ab;
-  font-family: 'Rubik Mono One', sans-serif;
-  font-weight: bold;
+	color:#91f2ce;
+    font-family: 'Cabin Sketch', cursive;
+  	font-weight: normal;
+  	font-size: 100px;
 }
+
 body
 {
-  background-image: url('https://hdwallsource.com/img/2014/1/best-backgrounds-18905-19393-hd-wallpapers.jpg');
-	padding:2px;
+	background: #070000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.my_photo
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar li { color: #000 }
+
+#titleHead
 {
-  border-radius: 10%;
-  max-height: 35%;
-  border: 1px solid black;
+	font-size: 100px;
+
 }
-.p1
-{
-  border:2px solid grey;
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(255, 255, 255, 0.0001); 
 }
-.p2
-{
-  border:2px solid grey;
-}
-.aboutMe
-{
-  font-family: 'Crete Round', serif;
-  font-size: 18px;
-}
-.facebook
-{
-  width: 50px;
-  height: 50px;
-}
-.gmail
-{
-  width: 50px;
-  height: 50px;
-}
-.linkedin
-{
-  width: 40px;
-  height: 40px;
-}
+
 .ending
 {
   font-family: 'Gochi Hand', cursive;
+  color: #b1f9df;
 }
-#am
+
+.facebook
 {
-  text-decoration: none;
+  width: 25px;
+  height: 25px;
 }
-#mw
+.gmail
 {
-  text-decoration: none;
+  width: 25px;
+  height: 25px;
 }
-#cm
+.linkedin
 {
-  text-decoration: none;
+  width: 20px;
+  height: 20px;
+}
+
+.btn
+{
+	background: none;
+}
+.aboutMe
+{
+	color: #8dd6bb;
+}
+.content
+{
+	color: #bbe8d7;
+	font-size: 18px;
+	font-family: 'Merienda', cursive;
+}
+img
+{
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 50%;
 }
