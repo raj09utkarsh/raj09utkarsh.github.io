@@ -98,10 +98,20 @@ body
 	color: #bbe8d7;
 	font-size: 18px;
 	font-family: 'Merienda', cursive;
+	opacity: 0;
+  	animation-name: utkarsh;
+  	animation-duration: 3s;
+  	animation-delay: 2s;
+  	animation-fill-mode: forwards;
 }
 img
 {
 	max-height: 200px;
 	max-width: 200px;
 	border-radius: 50%;
+	opacity: 0;
+  	animation-name: utkarsh;
+  	animation-duration: 3s;
+  	animation-delay: 1s;
+  	animation-fill-mode: forwards;
 }
