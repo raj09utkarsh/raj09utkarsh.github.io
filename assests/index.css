@@ -4,6 +4,22 @@
     font-family: 'Cabin Sketch', cursive;
   	font-weight: normal;
   	font-size: 100px;
+  	transform;
+  	transition-duration: 1s;
+  	opacity: 0;
+  	animation-name: utkarsh;
+  	animation-duration: 5s;
+  	animation-fill-mode: forwards;
+}
+
+#utkarsh:hover{
+	transform: rotateY(180deg);
+}
+
+@keyframes utkarsh
+{
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
 
 body
@@ -42,16 +58,31 @@ body
 {
   width: 25px;
   height: 25px;
+  opacity: 0;
+  animation-name: utkarsh;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 .gmail
 {
   width: 25px;
   height: 25px;
+  opacity: 0;
+  animation-name: utkarsh;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 .linkedin
 {
   width: 20px;
   height: 20px;
+  opacity: 0;
+  animation-name: utkarsh;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 .btn
