@@ -33,7 +33,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url(https://images.unsplash.com/photo-1519397652863-aad621636ac7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=72d21f299330e8ff54564d2164579083&auto=format&fit=crop&w=750&q=80);
@@ -53,13 +52,30 @@ body, html {
 .caption {
   position: absolute;
   left: 0;
-  top: 38%;
+  top: 39%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 130%;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+.caption-bottom {
+  position: absolute;
+  left: 0;
+  top: 30%;
   width: 100%;
   text-align: center;
   color: #000;
 }
 
-.caption span.border {
+.caption-bottom span.border {
   background-color: #111;
   color: #fff;
   padding: 18px;
@@ -81,6 +97,7 @@ h3 {
     }
 }*/
 </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
 
@@ -90,7 +107,6 @@ h3 {
 			<div class="col-lg-12">
 				<div id="content">
 					<h1 id="whiteh1">Utkarsh Raj</h1>
-					
 				</div>
 			</div>
 		</div>
@@ -105,11 +121,21 @@ h3 {
 </div>
 
 <div class="bgimg-2">
-  <div class="caption">
+  <div class="caption-bottom">
     <span class="border" style="background-color:transparent;font-size:30px;color: #f7f7f7;">CONTACT ME</span>
+    <br>
+    <br>
     <div class="row">
     	<p style="color:white; font-size:18px">Ph: 9572703072</p>
     	<p style="color:white; font-size:18px">Email: utkarsh09raj@gmail.com</p>
+    </div>
+    <br>
+    <div class="row">
+      <form method="get">
+        <button type="submit" class="btn" style="background-color: transparent; border:1px solid white; color: white; letter-spacing: 1.5px; height: 40px;"><b><a href="https://www.facebook.com/utkarsh09raj" style="color: inherit;">FACEBOOK</a></b></button>
+      <button type="submit" class="btn " style="background-color: transparent; border:1px solid white; color: white; letter-spacing: 1.5px; height: 40px;"><b><a href="https://www.linkedin.com/in/utkarsh09raj/" style="color: inherit;">LINKEDIN</a></b></button>
+      <button type="submit" class="btn " style="background-color: transparent; border:1px solid white; color: white; letter-spacing: 1.5px; height: 40px;"><b><a href="https://plus.google.com/u/1/106967234797191444487" style="color: inherit;">GOOGLE+</a></b></button>
+    </form>
     </div>
   </div>
 </div>
@@ -119,6 +145,6 @@ h3 {
     <p align="center"><small><b>Created & Coded by Utkarsh Raj!</b></small></p>
   </div>
 </div>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
