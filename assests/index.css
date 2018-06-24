@@ -11,6 +11,11 @@ html
 	100%{opacity: 1;}
 }
 
+body
+{
+	background: url('/assests/img3.png')
+}
+
 .body{
 	padding-top: 100px;
 	padding-left: 5%;
