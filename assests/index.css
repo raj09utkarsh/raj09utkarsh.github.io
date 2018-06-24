@@ -102,6 +102,8 @@ hr.style-three {
 button
 {
 	padding: 5px 5px;
+	border: 1px solid grey;
+	background: transparent;
 }
 
 /* Make sure that padding behaves as expected */
