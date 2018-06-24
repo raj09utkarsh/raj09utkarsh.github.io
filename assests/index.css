@@ -1,3 +1,16 @@
+html
+{
+	animation: name1;
+	animation-duration: 1.2s;
+	animation-timing-function: ease-in;
+}
+
+@keyframes name1
+{
+	0% {opacity: 0;}
+	100%{opacity: 1;}
+}
+
 .body{
 	padding-top: 100px;
 	padding-left: 5%;
