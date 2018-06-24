@@ -63,6 +63,20 @@ hr.style-three {
 	font-family: 'Markazi Text', serif;
 }
 
+.topicContentGithub
+{
+	text-align: center;
+	line-height: 1.5;
+	font-size: 30px;
+	font-family: 'Markazi Text', serif;
+
+}
+
+.github
+{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
 
 .footer
 {
