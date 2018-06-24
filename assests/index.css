@@ -1,117 +1,104 @@
-#utkarsh
-{
-	color:#91f2ce;
-    font-family: 'Cabin Sketch', cursive;
-  	font-weight: normal;
-  	font-size: 100px;
-  	transform;
-  	transition-duration: 1s;
-  	opacity: 0;
-  	animation-name: utkarsh;
-  	animation-duration: 5s;
-  	animation-fill-mode: forwards;
+.body{
+	padding-top: 100px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 30px;
 }
 
-#utkarsh:hover{
-	transform: rotateY(180deg);
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 }
 
-@keyframes utkarsh
-{
-	0% {opacity: 0}
-	100% {opacity: 1}
-}
-
-body
-{
-	background: #070000;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.navbar {
-   background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-}
-
-.navbar li { color: #000 }
-
-#titleHead
-{
-	font-size: 100px;
-
-}
-
-.jumbotron {
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(255, 255, 255, 0.0001); 
-}
-
-.ending
-{
-  font-family: 'Gochi Hand', cursive;
-  color: #b1f9df;
-}
-
-.facebook
-{
-  width: 25px;
-  height: 25px;
-  opacity: 0;
-  animation-name: utkarsh;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-.gmail
-{
-  width: 25px;
-  height: 25px;
-  opacity: 0;
-  animation-name: utkarsh;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-.linkedin
-{
-  width: 20px;
-  height: 20px;
-  opacity: 0;
-  animation-name: utkarsh;
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-
-.btn
-{
-	background: none;
-}
-.aboutMe
-{
-	color: #8dd6bb;
-}
-.content
-{
-	color: #bbe8d7;
-	font-size: 18px;
-	font-family: 'Merienda', cursive;
-	opacity: 0;
-  	animation-name: utkarsh;
-  	animation-duration: 3s;
-  	animation-delay: 2s;
-  	animation-fill-mode: forwards;
-}
-img
-{
-	max-height: 200px;
-	max-width: 200px;
+.profilepic{
 	border-radius: 50%;
-	opacity: 0;
-  	animation-name: utkarsh;
-  	animation-duration: 3s;
-  	animation-delay: 1s;
-  	animation-fill-mode: forwards;
+	max-height: 150px;
+	max-width: 150px;
+}
+
+.row{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.topic
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	/*border-right: 1px solid grey;*/
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-family: 'Lobster', cursive;
+}
+
+.titleName
+{
+	font-family: 'Acme', sans-serif;
+	/*font-family: 'Galada', cursive;*/
+	font-size: 70px;
+	font-weight: normal;
+	letter-spacing: 3px;
+}
+
+.topicContent
+{
+	border-left: 1px solid grey;
+	line-height: 1.5;
+	font-size: 30px;
+	font-family: 'Markazi Text', serif;
+}
+
+
+.footer
+{
+	background: #161616;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contact
+{
+	text-align: center;
+}
+
+.contact button
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+button
+{
+	padding: 5px 5px;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.containerSkills {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 21px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 75%; background-color: #f44336;} /* Red */
+.node {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.topicContent p
+{
+	padding-top: 10px;
 }
